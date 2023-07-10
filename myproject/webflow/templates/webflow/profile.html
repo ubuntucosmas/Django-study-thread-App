@@ -1,0 +1,8 @@
+{% extends 'main.html' %} {% block content %}
+<h1> {{user.username}} </h1>
+{% for room in rooms %}
+
+<div>
+    {{room}}
+</div>
+{% endfor %} {% endblock content %}
